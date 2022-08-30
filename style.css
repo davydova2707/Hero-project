@@ -28,9 +28,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #272142;
 }
 
-div {
-    display: block;
-}
+.hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+  }
+
 
 .btn-branding {
     background: var(--branding-color);
