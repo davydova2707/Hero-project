@@ -35,17 +35,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
   }
 
-  .about-blok h1 {
+  .page-container h1 {
     font-size: 64px;
     line-height: 80px;
 }
 
-  .about-blok h2 {
+  .page-container h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
 
-  .about-blok-contentt {
+  .page-container-content {
     margin: 30px;
 }
 
@@ -71,7 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    border-radius: 4px;
 }
 
 @media (max-width: 900px){
@@ -79,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     text-align: center;
 }
-.about-blok {
+.page-container {
     text-align: center;
     padding: 0;
 }
